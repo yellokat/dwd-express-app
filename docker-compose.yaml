@@ -6,3 +6,8 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     container_name: watchtower
+  express:
+    container_name: express
+    image: jenova195/beermapping:latest
+    ports:
+      - 8080:8080
