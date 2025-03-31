@@ -1,0 +1,5 @@
+.gitignore
+.gitmessage.txt
+.dockerignore
+node_modules/
+Dockerfile
